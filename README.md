@@ -89,8 +89,9 @@ Download and install Python 3.8+ from [python.org](https://www.python.org/downlo
 ### Step 2: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Python-Programming-Basics-AI.git
-cd Python-Programming-Basics-AI
+git clone https://github.com/<your-github-username>/<this-repository-name>.git
+cd <this-repository-name>
+# Replace <your-github-username> and <this-repository-name> with your actual GitHub username and repository name.
 ```
 
 ### Step 3: Create a Virtual Environment
