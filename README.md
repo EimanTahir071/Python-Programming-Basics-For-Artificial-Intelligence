@@ -109,7 +109,7 @@ source venv/bin/activate
 ### Step 4: Install Dependencies
 
 ```bash
-pip install -r requirements.txt
+pip install numpy pandas matplotlib scikit-learn
 ```
 
 ## 📖 Topics Covered
