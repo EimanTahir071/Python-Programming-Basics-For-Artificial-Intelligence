@@ -1,6 +1,6 @@
 ---
 name: Custom issue template
-about: Describe this issue template's purpose here.
+about: General purpose custom issue template for reporting issues or feature requests.
 title: ''
 labels: ''
 assignees: ''
