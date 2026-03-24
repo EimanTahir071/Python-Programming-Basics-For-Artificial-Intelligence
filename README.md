@@ -2,7 +2,7 @@
 
 A comprehensive guide to learning Python fundamentals with a focus on Artificial Intelligence and Machine Learning applications.
 
- <img src="/images/1.png" alt="description" style="width:100%; height:auto;" />
+ <img src="/images/1.png" alt="Illustration representing Python programming basics for artificial intelligence" style="width:100%; height:auto;" />
 
 ## 📋 Table of Contents
 
