@@ -6,14 +6,14 @@ A comprehensive guide to learning Python fundamentals with a focus on Artificial
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
+- [Overview](#-overview)
 - [Prerequisites](#-prerequisites)
-- [Course Structure](#course-structure)
-- [Installation](#installation)
-- [Topics Covered](#topics-covered)
-- [Projects](#projects)
-- [Resources](#resources)
-- [Contributing](#contributing)
+- [Course Structure](#-course-structure)
+- [Installation](#-installation)
+- [Topics Covered](#-topics-covered)
+- [Projects](#-projects)
+- [Resources](#-resources)
+- [Contributing](#-contributing)
 
 
 ## 🎯 Overview
