@@ -1,4 +1,3 @@
-
 # for i in range(10):
 #     if i % 2 == 0:
 #         continue
@@ -29,7 +28,7 @@
 # fruits = ["apple", "banana", "cherry"]
 # for fruit in fruits:
 #     print(fruit)
-    
+
 # Loop with range
 # for i in range(10): #[0,1,2,3,4,5,6,7,8,9]
 #     print(i)
@@ -48,7 +47,7 @@
 #     print("Zero")
 # else:
 #     print("Negative Number")
-    
+
 # Example 2: Nested conditions
 # age = 3
 # if age > 18:
