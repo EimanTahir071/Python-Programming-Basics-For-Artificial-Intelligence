@@ -8,11 +8,10 @@ def multiply(a, b):
     return a * b
 
 def divide(a, b):
-    if b != 0:
-        return a / b
-    else:
-        return "Division by zero is not allowed"
-    
+    if b == 0:
+        raise ZeroDivisionError("Division by zero is not allowed")
+    return a / b
+
 while True:
     print("\nMenu:")
     print("1. Addition")
@@ -37,6 +36,9 @@ while True:
     elif choice == "3":
         print("Result: ", multiply(num1, num2))
     elif choice == "4":
-        print("Result: ", divide(num1, num2))
+        try:
+            print("Result: ", divide(num1, num2))
+        except ZeroDivisionError as e:
+            print("Error:", e)
     else:
         print("Invalid choice. Please try again.")
