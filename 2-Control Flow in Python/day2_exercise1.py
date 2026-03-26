@@ -1,6 +1,11 @@
 import math
 
-num = int(input("Enter a number: "))
+while True:
+    try:
+        num = int(input("Enter a number: "))
+        break
+    except ValueError:
+        print("Invalid input. Please enter an integer.")
 
 if num > 1:
     for i in range(2, math.isqrt(num) + 1):
