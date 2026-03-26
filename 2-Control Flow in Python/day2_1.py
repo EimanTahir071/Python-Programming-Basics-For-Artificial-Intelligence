@@ -31,7 +31,7 @@
 #     print(fruit)
     
 # Loop with range
-# for i in range(10): #[0,1,2,3,4]
+# for i in range(10): #[0,1,2,3,4,5,6,7,8,9]
 #     print(i)
 
 #Syntax for for-loop
