@@ -1,13 +1,19 @@
-person = {"name": "Alice", "age": 25, "grade": "A"}
 
-print(person)
+def main():
+    print(person)
 
-# Add new key-value pair
-person["address"] = "123 Main St"
+    # Add new key-value pair
+    person["address"] = "123 Main St"
 
-# Update Age
-person["age"] = 32
+    # Update Age
+    person["age"] = 32
 
-# Remove grade
-person.pop("grade", None)
-print(person)
+    # Remove grade
+    if "grade" in person:
+        del person["grade"]
+
+    print(person)
+
+
+if __name__ == "__main__":
+    main()
