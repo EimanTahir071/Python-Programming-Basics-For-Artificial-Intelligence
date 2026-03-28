@@ -1,5 +1,5 @@
-
 def main():
+    person = {"name": "Alice", "age": 25, "grade": "A"}
     print(person)
 
     # Add new key-value pair
@@ -9,8 +9,7 @@ def main():
     person["age"] = 32
 
     # Remove grade
-    if "grade" in person:
-        del person["grade"]
+    person.pop("grade", None)
 
     print(person)
 
