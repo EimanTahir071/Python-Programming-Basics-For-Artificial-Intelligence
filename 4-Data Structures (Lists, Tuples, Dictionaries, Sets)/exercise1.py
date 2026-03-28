@@ -9,7 +9,6 @@ person["address"] = "123 Main St"
 person["age"] = 32
 
 # Remove grade
-if "grade" in person:
-    del person["grade"]
+person.pop("grade", None)
     
 print(person)
