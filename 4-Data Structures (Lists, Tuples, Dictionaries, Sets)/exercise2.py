@@ -6,7 +6,7 @@ words = sentence.split()
 # Initialize Dictionary
 word_count = {}
 
-# Count word frequence
+# Count word frequency
 for word in words:
     word = word.lower()
     if word in word_count:
