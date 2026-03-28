@@ -10,5 +10,4 @@ person["age"] = 32
 
 # Remove grade
 person.pop("grade", None)
-    
 print(person)
