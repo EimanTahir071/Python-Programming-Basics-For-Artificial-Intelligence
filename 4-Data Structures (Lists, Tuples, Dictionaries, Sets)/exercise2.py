@@ -1,17 +1,22 @@
-sentence = input("Enter a Sentence: ")
+def main():
+    sentence = input("Enter a Sentence: ")
 
-# Split the sentence into words
-words = sentence.split()
+    # Split the sentence into words
+    words = sentence.split()
 
-# Initialize Dictionary
-word_count = {}
+    # Initialize Dictionary
+    word_count = {}
 
-# Count word frequency
-for word in words:
-    word = word.lower()
-    if word in word_count:
-        word_count[word] += 1
-    else:
-        word_count[word] = 1
-        
-print(word_count)
+    # Count word frequence
+    for word in words:
+        word = word.lower()
+        if word in word_count:
+            word_count[word] += 1
+        else:
+            word_count[word] = 1
+
+    print(word_count)
+
+
+if __name__ == "__main__":
+    main()
