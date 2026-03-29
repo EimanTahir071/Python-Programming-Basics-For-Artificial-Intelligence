@@ -16,6 +16,8 @@ updated_text = text.replace("Java", "Python")
 print(updated_text)
 
 messy = "     Hello, World     "
-print(messy)
 cleaned_text = messy.strip()
-print(cleaned_text)
+
+if __name__ == "__main__":
+    print(messy)
+    print(cleaned_text)
