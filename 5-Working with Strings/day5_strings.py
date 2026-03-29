@@ -1,5 +1,5 @@
-# split()
 if __name__ == "__main__":
+    # split()
     sentence = "Python is fun"
     words = sentence.split()
     print(words)
