@@ -2,7 +2,14 @@ import re
 
 PUNCT_RE = re.compile(r"[^\w\s]")
 
-def clean_text(text):
+def clean_text(text: str) -> str:
+    """
+    Normalize a string by removing punctuation, collapsing repeated whitespace,
+    and converting all characters to lowercase.
+
+    Punctuation is defined as any character that is not a word character
+    (letters, digits, underscore) or whitespace per the regex pattern.
+    """
     # Remove punctuation
     text = PUNCT_RE.sub("", text)
     # Remove extra spaces
