@@ -1,8 +1,10 @@
 import re
 
+PUNCT_RE = re.compile(r"[^\w\s]")
+
 def clean_text(text):
     # Remove punctuation
-    text = re.sub(r"[^\w\s]", "", text)
+    text = PUNCT_RE.sub("", text)
     # Remove extra spaces
     text = " ".join(text.split())
     # Convert to lowercase
