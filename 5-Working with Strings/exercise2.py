@@ -1,5 +1,5 @@
 def is_palindrome(text):
-    text = "".join(char.lower() for char in text if char.isalnum())
+    text = "".join(char.casefold() for char in text if char.isalnum())
     return text == text[::-1]
 
 if __name__ == "__main__":
