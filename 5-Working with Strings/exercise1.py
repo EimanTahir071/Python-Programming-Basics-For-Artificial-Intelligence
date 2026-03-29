@@ -8,6 +8,7 @@ def clean_text(text):
     # Convert to lowercase
     return text.lower()
 
-input_text = "   Hello, World.!!! Welcome to Python, Programming....    "
-cleaned_text = clean_text(input_text)
-print("Cleaned Text: ", cleaned_text)
+if __name__ == "__main__":
+    input_text = "   Hello, World.!!! Welcome to Python, Programming....    "
+    cleaned_text = clean_text(input_text)
+    print("Cleaned Text: ", cleaned_text)
